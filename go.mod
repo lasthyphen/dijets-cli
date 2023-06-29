@@ -3,16 +3,16 @@ module github.com/lasthyphen/dijets-cli
 go 1.18
 
 require (
-	github.com/lasthyphen/apm v0.0.4
-	github.com/lasthyphen/utilitychain v0.11.7-rc.0
-	github.com/lasthyphen/dijets-network-runner v1.3.6
-	github.com/lasthyphen/dijetsnode v1.9.8
-	github.com/lasthyphen/spacesvm v0.0.15
-	github.com/lasthyphen/subnet-evm v0.4.9
 	github.com/docker/docker v23.0.0+incompatible
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
+	github.com/lasthyphen/apm v0.0.4
+	github.com/lasthyphen/dijets-network-runner v1.3.6
+	github.com/lasthyphen/dijetsnode v1.9.8
+	github.com/lasthyphen/spacesvm v0.0.15
+	github.com/lasthyphen/subnet-evm v0.4.9
+	github.com/lasthyphen/utilitychain v0.11.7-rc.0
 	github.com/manifoldco/promptui v0.9.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.8.1
@@ -90,6 +90,7 @@ require (
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
+	github.com/lasthyphen/dijetsnodego v1.8.14 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
