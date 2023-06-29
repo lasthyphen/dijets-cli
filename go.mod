@@ -12,7 +12,7 @@ require (
 	github.com/lasthyphen/dijetsnode v1.9.8
 	github.com/lasthyphen/spacesvm v0.0.15
 	github.com/lasthyphen/subnet-evm v0.4.9
-	github.com/lasthyphen/utilitychain v0.11.7-rc.0
+	github.com/lasthyphen/utilitychain v0.11.7
 	github.com/manifoldco/promptui v0.9.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.8.1
