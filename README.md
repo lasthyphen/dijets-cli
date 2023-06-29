@@ -1,6 +1,6 @@
 # Dijets-CLI
 
-Dijets CLI is a command line tool that gives developers access to everything Dijets. This release specializes in helping developers develop and test subnets.
+Dijets CLI is a command line tool that gives developers access to everything Dijets. This release specializes in helping developers develop and test ECCs.
 
 ## Installation
 
@@ -59,8 +59,8 @@ dijets network start
 
 - Creation of Subnet-EVM, SpacesVM, and custom virtual machine subnet configurations
 - Precompile integration and configuration
-- Local deployment of subnets for development and rapid prototyping
-- Fuji Testnet and Dijets Mainnet deployment of subnets
+- Local deployment of ECCs for development and rapid prototyping
+- Fuji Testnet and Dijets Mainnet deployment of ECCs
 - Ledger support
 - Dijets Package Manager Integration
 
@@ -133,7 +133,7 @@ To run the tests, execute the following command from the repo's root directory:
 
 Network snapshots are used by the CLI in order to keep track of blockchain state, and to improve performance of local deployments.
 
-They are the main way to persist subnets, blockchains, and blockchain operations, among different executions of the tool.
+They are the main way to persist ECCs, blockchains, and blockchain operations, among different executions of the tool.
 
 Three different kinds of snapshots are used:
 - The `bootstrap snapshot` is provided as the starting network state. It is never modified by CLI usage.
@@ -185,4 +185,4 @@ continue saving/restoring to it, if not, `default snapshot will be used`.
 
 ## Detailed Usage
 
-More detailed information on how to use Dijets CLI can be found at [here](https://docs.avax.network/subnets/create-a-local-subnet#subnet).
+More detailed information on how to use Dijets CLI can be found at [here](https://dev.dijets.io/docs/guides/getting-started/create-ecc).
